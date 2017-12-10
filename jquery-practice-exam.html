@@ -23,6 +23,13 @@
     /* Your code goes here */
     $(".wrong-msg").hide();
     $(".correct-msg").hide();
+    $(".btn-right").click(function() {
+      $(".correct-msg").slideDown();
+    });
+
+    $(".btn-wrong").click(function() {
+      $(".wrong-msg").slideDown();
+    });
   </script>
 </body>
 </html>
